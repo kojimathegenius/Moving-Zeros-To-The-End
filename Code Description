@@ -1,0 +1,15 @@
+In this code:
+
+We maintain a countNonZeros variable to keep track of the number of non-zero elements found.
+We iterate through the array, and if we encounter a non-zero element, we move it to the front of the array at position countNonZeros and increment countNonZeros.
+After the first loop, we know how many non-zero elements there are, so we fill the remaining positions with zeros in the second loop.
+Finally, we return the modified array.
+-------------
+В данном коде:
+
+Ведется переменная countNonZeros для отслеживания количества найденных ненулевых элементов.
+Мы выполняем итерации по массиву, и если встречаем ненулевой элемент, то перемещаем его в начало массива на позицию countNonZeros и увеличиваем countNonZeros.
+После первого цикла мы знаем, сколько в массиве ненулевых элементов, поэтому во втором цикле заполняем оставшиеся позиции нулями.
+Наконец, мы возвращаем измененный массив.
+----------
+The code is written in the Javascript language!
